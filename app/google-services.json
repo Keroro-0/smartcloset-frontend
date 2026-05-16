@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "99255855517",
+    "project_id": "smartcloset-961f8",
+    "storage_bucket": "smartcloset-961f8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99255855517:android:837ff9cef71a47ab2d2774",
+        "android_client_info": {
+          "package_name": "com.angel.smartcloset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99255855517-c35mqfqsc9790gcs3tlbr8chrnp0jmae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.angel.smartcloset",
+            "certificate_hash": "38007a3d8ceccbed2884b2c4da45314526a859af"
+          }
+        },
+        {
+          "client_id": "99255855517-srrfc0p3ovjv2vq4k01fl619vv8bd5vs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBifMYFzyvLl9LqJQlSF-1DNmstljqWjM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99255855517-srrfc0p3ovjv2vq4k01fl619vv8bd5vs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
