@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-SmartCloset es una aplicación nativa para Android orientada a la digitalización y gestión eficiente del guardarropa personal. El sistema permite a los usuarios registrar sus prendas, categorizarlas y recibir recomendaciones de atuendos (*outfits*) dinámicas, calculadas en función de las condiciones meteorológicas actuales mediante la integración de servicios de terceros.
+SmartCloset es una aplicación nativa para Android orientada a la digitalización y gestión eficiente del armario personal. El sistema permite a los usuarios registrar sus prendas, categorizarlas y recibir recomendaciones de atuendos (*outfits*) dinámicas, calculadas en función de las condiciones meteorológicas actuales mediante la integración de servicios de terceros.
 
 Este repositorio contiene exclusivamente el código fuente correspondiente al cliente móvil (Frontend).
 
@@ -31,12 +31,11 @@ El desarrollo se ha llevado a cabo utilizando el stack tecnológico moderno reco
 * **Asincronía y Reactividad:** Kotlin Coroutines y `StateFlow`. Utilizados para operaciones fuera del hilo principal (ej. llamadas a red) y para la actualización reactiva de la interfaz de usuario en base a los cambios de estado.
 * **Cliente HTTP:** Retrofit 2 junto con OkHttp y Gson. Empleados para el consumo de la API REST del backend propio y la API meteorológica externa.
 * **Navegación:** Jetpack Navigation Compose para la gestión del grafo de navegación entre pantallas.
-* **Diseño:** Material Design 3 (Material You).
 
 ## Funcionalidades Principales
 
 1.  **Módulo de Autenticación:** Flujo completo de registro e inicio de sesión de usuarios.
-2.  **Gestión de Guardarropa (CRUD):** Visualización del inventario de ropa, adición de nuevas prendas, modificación de categorías y eliminación.
+2.  **Gestión del Armario (CRUD):** Visualización del inventario de ropa, adición de nuevas prendas, modificación de categorías y eliminación.
 3.  **Captura Multimedia:** Integración directa con el hardware del dispositivo para la captura fotográfica de prendas desde la aplicación.
 4.  **Motor de Recomendación Climática:** Interfaz que despliega los datos del clima en tiempo real y cruza esta información con el inventario del usuario para sugerir atuendos adecuados.
 
