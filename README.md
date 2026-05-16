@@ -52,4 +52,4 @@ Para la compilación y ejecución local del proyecto, se requiere el siguiente e
 
 1. Clonar el repositorio:
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/Keroro-0/smartcloset-frontend
